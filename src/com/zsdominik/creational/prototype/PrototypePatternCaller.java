@@ -1,6 +1,6 @@
 package com.zsdominik.creational.prototype;
 
-import com.zsdominik.caller.PatternCaller;
+import com.zsdominik.util.PatternCaller;
 import com.zsdominik.creational.prototype.factory.PrototypeFactory;
 import com.zsdominik.creational.prototype.prototypes.BeefBurgerProto;
 import com.zsdominik.creational.prototype.prototypes.PrototypeCapable;

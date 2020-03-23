@@ -2,7 +2,7 @@ package com.zsdominik.creational.factory;
 
 import com.zsdominik.creational.factory.abstr.MeatType;
 import com.zsdominik.creational.factory.factory.BurgerFactory;
-import com.zsdominik.caller.PatternCaller;
+import com.zsdominik.util.PatternCaller;
 
 public class FactoryPatternCaller implements PatternCaller {
     @Override

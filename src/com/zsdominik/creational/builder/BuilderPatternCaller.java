@@ -1,6 +1,6 @@
 package com.zsdominik.creational.builder;
 
-import com.zsdominik.caller.PatternCaller;
+import com.zsdominik.util.PatternCaller;
 
 import java.util.List;
 
