@@ -1,6 +1,6 @@
 package com.zsdominik;
 
-import com.zsdominik.behavioral.factory.FactoryPatternCaller;
+import com.zsdominik.creational.factory.FactoryPatternCaller;
 
 public class Main {
 

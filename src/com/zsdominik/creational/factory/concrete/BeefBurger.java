@@ -1,7 +1,7 @@
-package com.zsdominik.behavioral.factory.concrete;
+package com.zsdominik.creational.factory.concrete;
 
-import com.zsdominik.behavioral.factory.abstr.Burger;
-import com.zsdominik.behavioral.factory.abstr.MeatType;
+import com.zsdominik.creational.factory.abstr.Burger;
+import com.zsdominik.creational.factory.abstr.MeatType;
 
 public class BeefBurger extends Burger {
     public BeefBurger() {

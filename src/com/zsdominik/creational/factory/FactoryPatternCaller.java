@@ -1,7 +1,7 @@
-package com.zsdominik.behavioral.factory;
+package com.zsdominik.creational.factory;
 
-import com.zsdominik.behavioral.factory.abstr.MeatType;
-import com.zsdominik.behavioral.factory.factory.BurgerFactory;
+import com.zsdominik.creational.factory.abstr.MeatType;
+import com.zsdominik.creational.factory.factory.BurgerFactory;
 import com.zsdominik.caller.PatternCaller;
 
 public class FactoryPatternCaller implements PatternCaller {

@@ -1,10 +1,10 @@
-package com.zsdominik.behavioral.factory.factory;
+package com.zsdominik.creational.factory.factory;
 
-import com.zsdominik.behavioral.factory.abstr.Burger;
-import com.zsdominik.behavioral.factory.abstr.MeatType;
-import com.zsdominik.behavioral.factory.concrete.BeefBurger;
-import com.zsdominik.behavioral.factory.concrete.ChickenBurger;
-import com.zsdominik.behavioral.factory.concrete.PorkBurger;
+import com.zsdominik.creational.factory.abstr.Burger;
+import com.zsdominik.creational.factory.abstr.MeatType;
+import com.zsdominik.creational.factory.concrete.BeefBurger;
+import com.zsdominik.creational.factory.concrete.ChickenBurger;
+import com.zsdominik.creational.factory.concrete.PorkBurger;
 
 public class BurgerFactory {
     public static Burger createBurger(MeatType meatType) {

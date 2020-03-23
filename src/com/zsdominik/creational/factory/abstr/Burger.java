@@ -1,4 +1,4 @@
-package com.zsdominik.behavioral.factory.abstr;
+package com.zsdominik.creational.factory.abstr;
 
 public abstract class Burger {
 

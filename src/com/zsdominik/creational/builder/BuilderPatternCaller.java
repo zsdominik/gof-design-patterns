@@ -1,4 +1,4 @@
-package com.zsdominik.behavioral.builder;
+package com.zsdominik.creational.builder;
 
 import com.zsdominik.caller.PatternCaller;
 
