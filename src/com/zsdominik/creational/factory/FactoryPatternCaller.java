@@ -3,6 +3,7 @@ package com.zsdominik.creational.factory;
 import com.zsdominik.creational.factory.abstr.MeatType;
 import com.zsdominik.creational.factory.factory.BurgerFactory;
 import com.zsdominik.util.PatternCaller;
+import com.zsdominik.util.SysOutUtils;
 
 public class FactoryPatternCaller implements PatternCaller {
     @Override
@@ -10,5 +11,6 @@ public class FactoryPatternCaller implements PatternCaller {
         BurgerFactory.createBurger(MeatType.BEEF);
         BurgerFactory.createBurger(MeatType.CHICKEN);
         BurgerFactory.createBurger(MeatType.PORK);
+        SysOutUtils.printSeparator();
     }
 }

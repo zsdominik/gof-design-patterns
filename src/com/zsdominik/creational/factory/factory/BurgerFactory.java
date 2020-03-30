@@ -8,6 +8,7 @@ import com.zsdominik.creational.factory.concrete.PorkBurger;
 
 public class BurgerFactory {
     public static Burger createBurger(MeatType meatType) {
+        System.out.println("Burger Factory called");
         Burger burger;
         switch (meatType) {
             case BEEF:

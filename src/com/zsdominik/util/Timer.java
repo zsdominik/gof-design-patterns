@@ -2,7 +2,7 @@ package com.zsdominik.util;
 
 public class Timer {
 
-    public static void runWithTimer(Runnable functionToRun, String functionName) {
+    public static void runWithTimer(Runnable functionToRun, String functionDescription) {
         // starting time
         long start = System.currentTimeMillis();
 
@@ -12,7 +12,7 @@ public class Timer {
 
         // ending time
         long end = System.currentTimeMillis();
-        System.out.println(functionName + " was run for " +
+        System.out.println(functionDescription + " was run for " +
                 (end - start) + "ms");
     }
 }

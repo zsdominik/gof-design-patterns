@@ -1,6 +1,7 @@
 package com.zsdominik.creational.builder;
 
 import com.zsdominik.util.PatternCaller;
+import com.zsdominik.util.SysOutUtils;
 
 import java.util.List;
 
@@ -13,5 +14,6 @@ public class BuilderPatternCaller implements PatternCaller {
                     .build();
 
         System.out.println("Burger is built using builder: " + burger.toString());
+        SysOutUtils.printSeparator();
     }
 }

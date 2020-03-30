@@ -4,6 +4,7 @@ import com.zsdominik.util.PatternCaller;
 import com.zsdominik.creational.prototype.factory.PrototypeFactory;
 import com.zsdominik.creational.prototype.prototypes.BeefBurgerProto;
 import com.zsdominik.creational.prototype.prototypes.PrototypeCapable;
+import com.zsdominik.util.SysOutUtils;
 import com.zsdominik.util.Timer;
 
 import java.util.LinkedList;
@@ -15,8 +16,9 @@ public class PrototypePatternCaller implements PatternCaller {
 
     @Override
     public void callExample() {
-        Timer.runWithTimer(createObjectsUsingPrototype(), "createObjectsUsingPrototype");
-        Timer.runWithTimer(createObjectsUsingNew(), "createObjectsUsingNew");
+        Timer.runWithTimer(createObjectsUsingPrototype(), "Creating object using prototype pattern");
+        Timer.runWithTimer(createObjectsUsingNew(), "Creating object using new keyword");
+        SysOutUtils.printSeparator();
     }
 
     private Runnable createObjectsUsingPrototype() {
